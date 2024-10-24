@@ -1,0 +1,912 @@
+[
+  {
+    "Ticker": "2CC",
+    "Name": "2 Cheap Cars Group Limited",
+    "Price": "$0.7800"
+  },
+  {
+    "Ticker": "AFC",
+    "Name": "AFC Group Holdings Limited",
+    "Price": "$0.0010"
+  },
+  {
+    "Ticker": "AFI",
+    "Name": "Australian Foundation Investment Company Limited",
+    "Price": "$8.2000"
+  },
+  {
+    "Ticker": "AFT",
+    "Name": "AFT Pharmaceuticals Limited",
+    "Price": "$3.3000"
+  },
+  {
+    "Ticker": "AGG",
+    "Name": "Smart Global Aggregate Bond ETF",
+    "Price": "$1.2080"
+  },
+  {
+    "Ticker": "AGL",
+    "Name": "Accordant Group Limited",
+    "Price": "$0.5400"
+  },
+  {
+    "Ticker": "AIA",
+    "Name": "Auckland International Airport Limited",
+    "Price": "$7.2500"
+  },
+  {
+    "Ticker": "AIR",
+    "Name": "Air New Zealand Limited (NS)",
+    "Price": "$0.5400"
+  },
+  {
+    "Ticker": "ALF",
+    "Name": "Allied Farmers Limited (NS)",
+    "Price": "$0.7800"
+  },
+  {
+    "Ticker": "ANZ",
+    "Name": "ANZ Group Holdings Limited",
+    "Price": "$35.2000"
+  },
+  {
+    "Ticker": "AOF",
+    "Name": "AoFrio Limited",
+    "Price": "$0.0950"
+  },
+  {
+    "Ticker": "APA",
+    "Name": "Smart Asia Pacific ETF",
+    "Price": "$2.4240"
+  },
+  {
+    "Ticker": "APL",
+    "Name": "Asset Plus Limited",
+    "Price": "$0.2150"
+  },
+  {
+    "Ticker": "ARB",
+    "Name": "ArborGen Holdings Limited",
+    "Price": "$0.1370"
+  },
+  {
+    "Ticker": "ARG",
+    "Name": "Argosy Property Limited",
+    "Price": "$1.1250"
+  },
+  {
+    "Ticker": "ARV",
+    "Name": "Arvida Group Limited",
+    "Price": "$1.6900"
+  },
+  {
+    "Ticker": "ASD",
+    "Name": "Smart Australian Dividend ETF",
+    "Price": "$1.8550"
+  },
+  {
+    "Ticker": "ASF",
+    "Name": "Smart Australian Financials ETF",
+    "Price": "$10.7870"
+  },
+  {
+    "Ticker": "ASP",
+    "Name": "Smart Australian Property ETF",
+    "Price": "$1.4970"
+  },
+  {
+    "Ticker": "ASR",
+    "Name": "Smart Australian Resources ETF",
+    "Price": "$6.0590"
+  },
+  {
+    "Ticker": "ATM",
+    "Name": "The a2 Milk Company Limited",
+    "Price": "$6.5300"
+  },
+  {
+    "Ticker": "AUE",
+    "Name": "Smart Australian ESG ETF",
+    "Price": "$3.0450"
+  },
+  {
+    "Ticker": "AUS",
+    "Name": "Smart Australian Top 200 ETF",
+    "Price": "$3.6430"
+  },
+  {
+    "Ticker": "BAI",
+    "Name": "Being AI Limited",
+    "Price": "$0.4900"
+  },
+  {
+    "Ticker": "BFG",
+    "Name": "Burger Fuel Group Limited",
+    "Price": "$0.3100"
+  },
+  {
+    "Ticker": "BGP",
+    "Name": "Briscoe Group Limited",
+    "Price": "$5.0300"
+  },
+  {
+    "Ticker": "BIF",
+    "Name": "Booster Innovation Fund",
+    "Price": "$1.5110"
+  },
+  {
+    "Ticker": "BIT",
+    "Name": "The Bankers Investment Trust Plc",
+    "Price": "$2.3900"
+  },
+  {
+    "Ticker": "BLT",
+    "Name": "Blis Technologies Limited",
+    "Price": "$0.0130"
+  },
+  {
+    "Ticker": "BOT",
+    "Name": "Smart Automation and Robotics ETF",
+    "Price": "$5.0380"
+  },
+  {
+    "Ticker": "BPG",
+    "Name": "Black Pearl Group Limited",
+    "Price": "$1.3000"
+  },
+  {
+    "Ticker": "BRM",
+    "Name": "Barramundi Limited",
+    "Price": "$0.6800"
+  },
+  {
+    "Ticker": "BRMWH",
+    "Name": "Barramundi Limited",
+    "Price": "$0.0170"
+  },
+  {
+    "Ticker": "BRW",
+    "Name": "Bremworth Limited",
+    "Price": "$0.4200"
+  },
+  {
+    "Ticker": "BTC",
+    "Name": "Smart Bitcoin ETF",
+    "Price": "$2.5170"
+  },
+  {
+    "Ticker": "CBD",
+    "Name": "Cannasouth Limited (Administrators Appointed)",
+    "Price": "$0.0980"
+  },
+  {
+    "Ticker": "CCC",
+    "Name": "Cooks Coffee Company Limited",
+    "Price": "$0.2850"
+  },
+  {
+    "Ticker": "CDI",
+    "Name": "CDL Investments New Zealand Limited",
+    "Price": "$0.7600"
+  },
+  {
+    "Ticker": "CEN",
+    "Name": "Contact Energy Limited",
+    "Price": "$8.6000"
+  },
+  {
+    "Ticker": "CHI",
+    "Name": "Channel Infrastructure NZ Limited",
+    "Price": "$1.9000"
+  },
+  {
+    "Ticker": "CMO",
+    "Name": "The Colonial Motor Company Limited",
+    "Price": "$7.0000"
+  },
+  {
+    "Ticker": "CNU",
+    "Name": "Chorus Limited (NS)",
+    "Price": "$8.9800"
+  },
+  {
+    "Ticker": "CO2",
+    "Name": "Carbon Fund",
+    "Price": "$1.7000"
+  },
+  {
+    "Ticker": "CRP",
+    "Name": "Chatham Rock Phosphate Limited",
+    "Price": "$0.1170"
+  },
+  {
+    "Ticker": "CVT",
+    "Name": "Comvita Limited",
+    "Price": "$1.1800"
+  },
+  {
+    "Ticker": "DGL",
+    "Name": "Delegat Group Limited",
+    "Price": "$5.3000"
+  },
+  {
+    "Ticker": "DIV",
+    "Name": "Smart NZ Dividend ETF",
+    "Price": "$1.1800"
+  },
+  {
+    "Ticker": "DOW",
+    "Name": "Downer EDI Limited",
+    "Price": "$0.0000"
+  },
+  {
+    "Ticker": "EBO",
+    "Name": "Ebos Group Limited",
+    "Price": "$36.9000"
+  },
+  {
+    "Ticker": "EMF",
+    "Name": "Smart Emerging Markets ETF",
+    "Price": "$1.5500"
+  },
+  {
+    "Ticker": "EMG",
+    "Name": "Smart Emerging Markets ESG ETF",
+    "Price": "$2.6340"
+  },
+  {
+    "Ticker": "ENS",
+    "Name": "Enprise Group Limited",
+    "Price": "$0.4500"
+  },
+  {
+    "Ticker": "ERD",
+    "Name": "EROAD Limited",
+    "Price": "$0.9200"
+  },
+  {
+    "Ticker": "ESG",
+    "Name": "Smart Global ESG ETF",
+    "Price": "$3.8690"
+  },
+  {
+    "Ticker": "EUF",
+    "Name": "Smart Europe ETF",
+    "Price": "$2.2720"
+  },
+  {
+    "Ticker": "EUG",
+    "Name": "Smart Europe ESG ETF",
+    "Price": "$3.4910"
+  },
+  {
+    "Ticker": "FBU",
+    "Name": "Fletcher Building Limited",
+    "Price": "$3.1100"
+  },
+  {
+    "Ticker": "FCT",
+    "Name": "F\u0026amp;C Investment Trust PLC",
+    "Price": "$22.6000"
+  },
+  {
+    "Ticker": "FNZ",
+    "Name": "Smart NZ Top 50 ETF",
+    "Price": "$3.1040"
+  },
+  {
+    "Ticker": "FPH",
+    "Name": "Fisher \u0026amp; Paykel Healthcare Corporation Limited",
+    "Price": "$37.1000"
+  },
+  {
+    "Ticker": "FRW",
+    "Name": "Freightways Group Limited",
+    "Price": "$9.9100"
+  },
+  {
+    "Ticker": "FSF",
+    "Name": "Fonterra Shareholders\u0026#x27; Fund (NS)",
+    "Price": "$4.9800"
+  },
+  {
+    "Ticker": "FWL",
+    "Name": "Foley Wines Limited",
+    "Price": "$0.8400"
+  },
+  {
+    "Ticker": "GBF",
+    "Name": "Smart Global Bond ETF",
+    "Price": "$3.1400"
+  },
+  {
+    "Ticker": "GEN",
+    "Name": "General Capital Limited",
+    "Price": "$0.2650"
+  },
+  {
+    "Ticker": "GFI",
+    "Name": "Greenfern Industries Limited",
+    "Price": "$0.0240"
+  },
+  {
+    "Ticker": "GGB",
+    "Name": "Smart Global Government Bond ETF",
+    "Price": "$2.5350"
+  },
+  {
+    "Ticker": "GLD",
+    "Name": "Smart Gold ETF",
+    "Price": "$2.5010"
+  },
+  {
+    "Ticker": "GMT",
+    "Name": "Goodman Property Trust (NS)",
+    "Price": "$2.1100"
+  },
+  {
+    "Ticker": "GNE",
+    "Name": "Genesis Energy Limited (NS)",
+    "Price": "$2.1000"
+  },
+  {
+    "Ticker": "GPR",
+    "Name": "Smart Global Property ETF",
+    "Price": "$2.9450"
+  },
+  {
+    "Ticker": "GTK",
+    "Name": "Gentrack Group Limited",
+    "Price": "$10.1200"
+  },
+  {
+    "Ticker": "GXH",
+    "Name": "Green Cross Health Limited",
+    "Price": "$0.7500"
+  },
+  {
+    "Ticker": "HFL",
+    "Name": "Henderson Far East Income Limited",
+    "Price": "$5.0000"
+  },
+  {
+    "Ticker": "HGH",
+    "Name": "Heartland Group Holdings Limited",
+    "Price": "$1.0200"
+  },
+  {
+    "Ticker": "HLG",
+    "Name": "Hallenstein Glasson Holdings Limited",
+    "Price": "$7.6000"
+  },
+  {
+    "Ticker": "IFT",
+    "Name": "Infratil Limited",
+    "Price": "$13.0200"
+  },
+  {
+    "Ticker": "IKE",
+    "Name": "ikeGPS Group Limited",
+    "Price": "$0.6000"
+  },
+  {
+    "Ticker": "INF",
+    "Name": "Smart Global Infrastructure ETF",
+    "Price": "$2.9330"
+  },
+  {
+    "Ticker": "IPL",
+    "Name": "Investore Property Limited (NS)",
+    "Price": "$1.2300"
+  },
+  {
+    "Ticker": "IPR",
+    "Name": "Iperion Limited",
+    "Price": "$0.0030"
+  },
+  {
+    "Ticker": "JPN",
+    "Name": "Smart Japan ESG ETF",
+    "Price": "$2.4450"
+  },
+  {
+    "Ticker": "KFL",
+    "Name": "Kingfish Limited",
+    "Price": "$1.2700"
+  },
+  {
+    "Ticker": "KMD",
+    "Name": "KMD Brands Limited",
+    "Price": "$0.4700"
+  },
+  {
+    "Ticker": "KPG",
+    "Name": "Kiwi Property Group Limited",
+    "Price": "$0.9550"
+  },
+  {
+    "Ticker": "LIC",
+    "Name": "Livestock Improvement Corporation Limited (NS)",
+    "Price": "$1.0000"
+  },
+  {
+    "Ticker": "LIV",
+    "Name": "Smart Healthcare Innovation ETF",
+    "Price": "$2.9620"
+  },
+  {
+    "Ticker": "MCK",
+    "Name": "Millennium \u0026amp; Copthorne Hotels New Zealand Limited",
+    "Price": "$1.7700"
+  },
+  {
+    "Ticker": "MCKPA",
+    "Name": "Millennium \u0026amp; Copthorne Hotels New Zealand Limited",
+    "Price": "$1.6300"
+  },
+  {
+    "Ticker": "MCY",
+    "Name": "Mercury NZ Limited (NS)",
+    "Price": "$6.6950"
+  },
+  {
+    "Ticker": "MDZ",
+    "Name": "Smart NZ Mid Cap ETF",
+    "Price": "$5.5580"
+  },
+  {
+    "Ticker": "MEE",
+    "Name": "Me Today Limited",
+    "Price": "$0.0760"
+  },
+  {
+    "Ticker": "MEL",
+    "Name": "Meridian Energy Limited (NS)",
+    "Price": "$5.9700"
+  },
+  {
+    "Ticker": "MFB",
+    "Name": "My Food Bag Group Limited",
+    "Price": "$0.2100"
+  },
+  {
+    "Ticker": "MFT",
+    "Name": "Mainfreight Limited",
+    "Price": "$72.0100"
+  },
+  {
+    "Ticker": "MHJ",
+    "Name": "Michael Hill International Limited",
+    "Price": "$0.6000"
+  },
+  {
+    "Ticker": "MLN",
+    "Name": "Marlin Global Limited",
+    "Price": "$0.9200"
+  },
+  {
+    "Ticker": "MLNWG",
+    "Name": "Marlin Global Limited",
+    "Price": "$0.0150"
+  },
+  {
+    "Ticker": "MMH",
+    "Name": "Marsden Maritime Holdings Limited",
+    "Price": "$3.5700"
+  },
+  {
+    "Ticker": "MNW",
+    "Name": "Manawa Energy Limited",
+    "Price": "$5.4100"
+  },
+  {
+    "Ticker": "MOV",
+    "Name": "Move Logistics Group Limited",
+    "Price": "$0.1860"
+  },
+  {
+    "Ticker": "MPG",
+    "Name": "Metro Performance Glass Limited",
+    "Price": "$0.0600"
+  },
+  {
+    "Ticker": "MWE",
+    "Name": "Marlborough Wine Estates Group Limited",
+    "Price": "$0.0440"
+  },
+  {
+    "Ticker": "MZY",
+    "Name": "Smart Australian Mid Cap ETF",
+    "Price": "$10.7440"
+  },
+  {
+    "Ticker": "NGB",
+    "Name": "Smart S\u0026amp;P/NZX NZ Government Bond ETF",
+    "Price": "$2.2040"
+  },
+  {
+    "Ticker": "NPF",
+    "Name": "Smart NZ Property ETF",
+    "Price": "$1.1420"
+  },
+  {
+    "Ticker": "NPH",
+    "Name": "Napier Port Holdings Limited",
+    "Price": "$2.2600"
+  },
+  {
+    "Ticker": "NTL",
+    "Name": "New Talisman Gold Mines Limited",
+    "Price": "$0.0230"
+  },
+  {
+    "Ticker": "NWF",
+    "Name": "NZ Windfarms Limited",
+    "Price": "$0.1240"
+  },
+  {
+    "Ticker": "NZB",
+    "Name": "Smart NZ Bond ETF",
+    "Price": "$2.9860"
+  },
+  {
+    "Ticker": "NZC",
+    "Name": "Smart NZ Cash ETF",
+    "Price": "$3.0480"
+  },
+  {
+    "Ticker": "NZG",
+    "Name": "Smart S\u0026amp;P/NZX 50 ETF",
+    "Price": "$2.5860"
+  },
+  {
+    "Ticker": "NZK",
+    "Name": "New Zealand King Salmon Investments Limited",
+    "Price": "$0.2400"
+  },
+  {
+    "Ticker": "NZL",
+    "Name": "New Zealand Rural Land Company Limited (NS)",
+    "Price": "$0.9000"
+  },
+  {
+    "Ticker": "NZLWA",
+    "Name": "New Zealand Rural Land Company Limited (NS)",
+    "Price": "$0.0100"
+  },
+  {
+    "Ticker": "NZM",
+    "Name": "NZME Limited",
+    "Price": "$1.0500"
+  },
+  {
+    "Ticker": "NZT",
+    "Name": "Smart S\u0026amp;P/NZX 20 ETF",
+    "Price": "$2.5190"
+  },
+  {
+    "Ticker": "NZX",
+    "Name": "NZX Limited",
+    "Price": "$1.4300"
+  },
+  {
+    "Ticker": "OCA",
+    "Name": "Oceania Healthcare Limited",
+    "Price": "$0.7800"
+  },
+  {
+    "Ticker": "OZY",
+    "Name": "Smart Australian Top 20 ETF",
+    "Price": "$5.1900"
+  },
+  {
+    "Ticker": "PCT",
+    "Name": "Precinct Properties NZ \u0026amp; Precinct Properties Investments Ltd",
+    "Price": "$1.2850"
+  },
+  {
+    "Ticker": "PEB",
+    "Name": "Pacific Edge Limited",
+    "Price": "$0.1430"
+  },
+  {
+    "Ticker": "PFI",
+    "Name": "Property for Industry Limited",
+    "Price": "$2.2000"
+  },
+  {
+    "Ticker": "PGW",
+    "Name": "PGG Wrightson Limited",
+    "Price": "$1.7500"
+  },
+  {
+    "Ticker": "PHL",
+    "Name": "Promisia Healthcare Limited",
+    "Price": "$0.4050"
+  },
+  {
+    "Ticker": "PHLWA",
+    "Name": "Promisia Healthcare Limited",
+    "Price": "$0.5000"
+  },
+  {
+    "Ticker": "PLP",
+    "Name": "Private Land and Property Fund",
+    "Price": "$1.3250"
+  },
+  {
+    "Ticker": "POT",
+    "Name": "Port of Tauranga Limited",
+    "Price": "$5.9200"
+  },
+  {
+    "Ticker": "PYS",
+    "Name": "PaySauce Limited",
+    "Price": "$0.2000"
+  },
+  {
+    "Ticker": "RAD",
+    "Name": "Radius Residential Care Limited",
+    "Price": "$0.1730"
+  },
+  {
+    "Ticker": "RAK",
+    "Name": "Rakon Limited",
+    "Price": "$0.7100"
+  },
+  {
+    "Ticker": "RBD",
+    "Name": "Restaurant Brands New Zealand Limited",
+    "Price": "$3.6500"
+  },
+  {
+    "Ticker": "RTO",
+    "Name": "RTO Limited",
+    "Price": "$0.2450"
+  },
+  {
+    "Ticker": "RUA",
+    "Name": "Rua Bioscience Limited",
+    "Price": "$0.0480"
+  },
+  {
+    "Ticker": "RYM",
+    "Name": "Ryman Healthcare Limited",
+    "Price": "$5.0000"
+  },
+  {
+    "Ticker": "SAN",
+    "Name": "Sanford Limited (NS)",
+    "Price": "$3.7600"
+  },
+  {
+    "Ticker": "SCL",
+    "Name": "Scales Corporation Limited",
+    "Price": "$3.8400"
+  },
+  {
+    "Ticker": "SCT",
+    "Name": "Scott Technology Limited",
+    "Price": "$1.8900"
+  },
+  {
+    "Ticker": "SDL",
+    "Name": "Solution Dynamics Limited",
+    "Price": "$1.2300"
+  },
+  {
+    "Ticker": "SEK",
+    "Name": "Seeka Limited",
+    "Price": "$2.9500"
+  },
+  {
+    "Ticker": "SKC",
+    "Name": "SkyCity Entertainment Group Limited (NS)",
+    "Price": "$1.3700"
+  },
+  {
+    "Ticker": "SKL",
+    "Name": "Skellerup Holdings Limited",
+    "Price": "$4.8100"
+  },
+  {
+    "Ticker": "SKO",
+    "Name": "Serko Limited",
+    "Price": "$2.9900"
+  },
+  {
+    "Ticker": "SKT",
+    "Name": "Sky Network Television Limited",
+    "Price": "$2.8300"
+  },
+  {
+    "Ticker": "SMI",
+    "Name": "Santana Minerals Limited",
+    "Price": "$2.3000"
+  },
+  {
+    "Ticker": "SML",
+    "Name": "Synlait Milk Limited (NS)",
+    "Price": "$0.4200"
+  },
+  {
+    "Ticker": "SPG",
+    "Name": "Stride Property Ltd \u0026amp; Stride Investment Management Ltd (NS)",
+    "Price": "$1.3600"
+  },
+  {
+    "Ticker": "SPK",
+    "Name": "Spark New Zealand Limited",
+    "Price": "$2.9600"
+  },
+  {
+    "Ticker": "SPN",
+    "Name": "South Port New Zealand Limited",
+    "Price": "$5.4100"
+  },
+  {
+    "Ticker": "SPY",
+    "Name": "Smartpay Holdings Limited",
+    "Price": "$0.7000"
+  },
+  {
+    "Ticker": "STU",
+    "Name": "Steel \u0026amp; Tube Holdings Limited",
+    "Price": "$0.9300"
+  },
+  {
+    "Ticker": "SUM",
+    "Name": "Summerset Group Holdings Limited",
+    "Price": "$12.3600"
+  },
+  {
+    "Ticker": "SVR",
+    "Name": "Savor Limited",
+    "Price": "$0.2100"
+  },
+  {
+    "Ticker": "TAH",
+    "Name": "Third Age Health Services Limited",
+    "Price": "$1.8400"
+  },
+  {
+    "Ticker": "TEM",
+    "Name": "Templeton Emerging Markets Investment Trust Plc",
+    "Price": "$3.5600"
+  },
+  {
+    "Ticker": "TGG",
+    "Name": "T\u0026amp;G Global Limited",
+    "Price": "$1.4800"
+  },
+  {
+    "Ticker": "THL",
+    "Name": "Tourism Holdings Limited",
+    "Price": "$2.1700"
+  },
+  {
+    "Ticker": "TNZ",
+    "Name": "Smart NZ Top 10 ETF",
+    "Price": "$2.0720"
+  },
+  {
+    "Ticker": "TRA",
+    "Name": "Turners Automotive Group Limited",
+    "Price": "$4.5300"
+  },
+  {
+    "Ticker": "TRU",
+    "Name": "TruScreen Group Limited",
+    "Price": "$0.0190"
+  },
+  {
+    "Ticker": "TWF",
+    "Name": "Smart Total World ETF",
+    "Price": "$3.9030"
+  },
+  {
+    "Ticker": "TWH",
+    "Name": "Smart Total World (NZD Hedged) ETF",
+    "Price": "$3.8710"
+  },
+  {
+    "Ticker": "TWL",
+    "Name": "Trade Window Holdings Limited",
+    "Price": "$0.2600"
+  },
+  {
+    "Ticker": "TWR",
+    "Name": "Tower Limited",
+    "Price": "$1.3450"
+  },
+  {
+    "Ticker": "USA",
+    "Name": "Smart US ESG ETF",
+    "Price": "$4.5120"
+  },
+  {
+    "Ticker": "USF",
+    "Name": "Smart US 500 ETF",
+    "Price": "$17.2560"
+  },
+  {
+    "Ticker": "USG",
+    "Name": "Smart US Large Growth ETF",
+    "Price": "$12.1280"
+  },
+  {
+    "Ticker": "USH",
+    "Name": "Smart US 500 (NZD Hedged) ETF",
+    "Price": "$3.3300"
+  },
+  {
+    "Ticker": "USM",
+    "Name": "Smart US Mid Cap ETF",
+    "Price": "$8.5830"
+  },
+  {
+    "Ticker": "USS",
+    "Name": "Smart US Small Cap ETF",
+    "Price": "$7.6060"
+  },
+  {
+    "Ticker": "UST",
+    "Name": "Smart US Technology (NZD Hedged) ETF",
+    "Price": "$2.5070"
+  },
+  {
+    "Ticker": "USV",
+    "Name": "Smart US Large Value ETF",
+    "Price": "$5.7920"
+  },
+  {
+    "Ticker": "VCT",
+    "Name": "Vector Limited (NS)",
+    "Price": "$3.8400"
+  },
+  {
+    "Ticker": "VGL",
+    "Name": "Vista Group International Limited",
+    "Price": "$2.9700"
+  },
+  {
+    "Ticker": "VHP",
+    "Name": "Vital Healthcare Property Trust",
+    "Price": "$1.9950"
+  },
+  {
+    "Ticker": "VNT",
+    "Name": "Ventia Services Group Limited",
+    "Price": "$5.3200"
+  },
+  {
+    "Ticker": "VSL",
+    "Name": "Vulcan Steel Limited",
+    "Price": "$8.3000"
+  },
+  {
+    "Ticker": "VTL",
+    "Name": "Vital Limited",
+    "Price": "$0.2600"
+  },
+  {
+    "Ticker": "WBC",
+    "Name": "Westpac Banking Corporation",
+    "Price": "$35.4800"
+  },
+  {
+    "Ticker": "WCO",
+    "Name": "WasteCo Group Limited",
+    "Price": "$0.0290"
+  },
+  {
+    "Ticker": "WHS",
+    "Name": "The Warehouse Group Limited",
+    "Price": "$1.1000"
+  },
+  {
+    "Ticker": "WIN",
+    "Name": "Winton Land Limited (NS)",
+    "Price": "$2.2000"
+  }
+]

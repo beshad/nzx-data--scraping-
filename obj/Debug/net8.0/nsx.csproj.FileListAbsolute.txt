@@ -1,0 +1,17 @@
+/home/behshad/www/sandbox/nsx/bin/Debug/net8.0/nsx
+/home/behshad/www/sandbox/nsx/bin/Debug/net8.0/nsx.deps.json
+/home/behshad/www/sandbox/nsx/bin/Debug/net8.0/nsx.runtimeconfig.json
+/home/behshad/www/sandbox/nsx/bin/Debug/net8.0/nsx.dll
+/home/behshad/www/sandbox/nsx/bin/Debug/net8.0/nsx.pdb
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.GeneratedMSBuildEditorConfig.editorconfig
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.AssemblyInfoInputs.cache
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.AssemblyInfo.cs
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.csproj.CoreCompileInputs.cache
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.dll
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/refint/nsx.dll
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.pdb
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.genruntimeconfig.cache
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/ref/nsx.dll
+/home/behshad/www/sandbox/nsx/bin/Debug/net8.0/HtmlAgilityPack.dll
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.csproj.AssemblyReference.cache
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.csproj.CopyComplete
