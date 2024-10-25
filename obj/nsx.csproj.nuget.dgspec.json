@@ -41,6 +41,10 @@
             "HtmlAgilityPack": {
               "target": "Package",
               "version": "[1.11.68, )"
+            },
+            "Terminal.Gui": {
+              "target": "Package",
+              "version": "[1.17.1, )"
             }
           },
           "imports": [

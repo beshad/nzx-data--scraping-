@@ -4,15 +4,18 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Xml;
+using Terminal.Gui;
 
-public class Program
+public partial class Program
 {
   public static void Main()
   {
 
-    var data = Scraper.Init();
-    Console.WriteLine(data);
+    Application.Init();
+    var window = new StockWindow();
+    Application.Run(window);
+    Application.Shutdown();
+
   }
 
 }
-

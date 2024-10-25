@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="HtmlAgilityPack" Version="1.11.68" />
+    <PackageReference Include="Terminal.Gui" Version="1.17.1" />
   </ItemGroup>
 
 </Project>
