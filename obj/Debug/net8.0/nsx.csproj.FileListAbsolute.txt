@@ -15,3 +15,4 @@
 /home/behshad/www/sandbox/nsx/bin/Debug/net8.0/HtmlAgilityPack.dll
 /home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.csproj.AssemblyReference.cache
 /home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.csproj.CopyComplete
+/home/behshad/www/sandbox/nsx/obj/Debug/net8.0/nsx.sourcelink.json
