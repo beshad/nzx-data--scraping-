@@ -20,3 +20,5 @@ This project uses the following NuGet packages:
 
 - **HtmlAgilityPack**: Version 1.11.68 - for parsing HTML documents.
 - **Terminal.Gui**: Version 1.17.1 - for creating terminal-based user interfaces.
+
+![Screenshot](screenshot.png)
