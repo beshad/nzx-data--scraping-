@@ -5,17 +5,15 @@ using System.IO;
 using System.Text.Json;
 using System.Xml;
 using Terminal.Gui;
-
+using Scraper;
 public partial class Program
 {
   public static void Main()
   {
-
     Application.Init();
     var window = new StockWindow();
     Application.Run(window);
     Application.Shutdown();
-
   }
 
 }
