@@ -42,7 +42,7 @@ namespace Scraper
       return data;
     }
 
-    public static string GetStockDetails(string ticker)
+    public static StockDetails GetStockDetails(string ticker)
     {
       var url = $"https://www.nzx.com/instruments/{ticker}";
       var web = new HtmlWeb();
@@ -69,23 +69,45 @@ namespace Scraper
       var grossDivYieldNode = doc.DocumentNode.SelectSingleNode(".//tbody/tr[th='Gross Div Yield']/td");
       var securitiesIssuedNode = doc.DocumentNode.SelectSingleNode(".//tbody/tr[th='Securities Issued']/td");
 
-      return $@"
-            Trading Status: {tradingStatusNode?.InnerText ?? "Not found"}
-            Trades: {tradesNode?.InnerText ?? "Not found"}
-            Value: {valueNode?.InnerText ?? "Not found"}
-            Volume: {volumeNode?.InnerText ?? "Not found"}
-            Capitalisation: {capitalisationNode?.InnerText ?? "Not found"}
-            Open: {openNode?.InnerText ?? "Not found"}
-            High: {highNode?.InnerText ?? "Not found"}
-            Low: {lowNode?.InnerText ?? "Not found"}
-            High Bid: {highBidNode?.InnerText ?? "Not found"}
-            Low Offer: {lowOfferNode?.InnerText ?? "Not found"}
-            P/E: {peNode?.InnerText.Trim() ?? "Not found"}
-            EPS: {epsNode?.InnerText.Trim() ?? "Not found"}
-            NTA: {ntaNode?.InnerText.Trim() ?? "Not found"}
-            Gross Div Yield: {grossDivYieldNode?.InnerText.Trim() ?? "Not found"}
-            Securities Issued: {securitiesIssuedNode?.InnerText.Trim() ?? "Not found"}
-        ";
+      // return $@"
+      //       Trading Status: {tradingStatusNode?.InnerText ?? "Not found"}
+      //       Trades: {tradesNode?.InnerText ?? "Not found"}
+      //       Value: {valueNode?.InnerText ?? "Not found"}
+      //       Volume: {volumeNode?.InnerText ?? "Not found"}
+      //       Capitalisation: {capitalisationNode?.InnerText ?? "Not found"}
+      //       Open: {openNode?.InnerText ?? "Not found"}
+      //       High: {highNode?.InnerText ?? "Not found"}
+      //       Low: {lowNode?.InnerText ?? "Not found"}
+      //       High Bid: {highBidNode?.InnerText ?? "Not found"}
+      //       Low Offer: {lowOfferNode?.InnerText ?? "Not found"}
+      //       P/E: {peNode?.InnerText.Trim() ?? "Not found"}
+      //       EPS: {epsNode?.InnerText.Trim() ?? "Not found"}
+      //       NTA: {ntaNode?.InnerText.Trim() ?? "Not found"}
+      //       Gross Div Yield: {grossDivYieldNode?.InnerText.Trim() ?? "Not found"}
+      //       Securities Issued: {securitiesIssuedNode?.InnerText.Trim() ?? "Not found"}
+      //   ";
+
+      var stockDetails = new StockDetails
+      {
+        Ticker = ticker,
+        TradingStatus = tradingStatusNode?.InnerText ?? "Not found",
+        Trades = tradesNode?.InnerText ?? "Not found",
+        Value = valueNode?.InnerText ?? "Not found",
+        Volume = volumeNode?.InnerText ?? "Not found",
+        Capitalisation = capitalisationNode?.InnerText ?? "Not found",
+        Open = openNode?.InnerText ?? "Not found",
+        High = highNode?.InnerText ?? "Not found",
+        Low = lowNode?.InnerText ?? "Not found",
+        HighBid = highBidNode?.InnerText ?? "Not found",
+        LowOffer = lowOfferNode?.InnerText ?? "Not found",
+        PE = peNode?.InnerText.Trim() ?? "Not found",
+        EPS = epsNode?.InnerText.Trim() ?? "Not found",
+        NTA = ntaNode?.InnerText.Trim() ?? "Not found",
+        GrossDivYield = grossDivYieldNode?.InnerText.Trim() ?? "Not found",
+        SecuritiesIssued = securitiesIssuedNode?.InnerText.Trim() ?? "Not found"
+      };
+
+      return stockDetails;
     }
   }
 
@@ -95,6 +117,26 @@ namespace Scraper
     public string? Ticker { get; set; }
     public string? Name { get; set; }
     public string? Price { get; set; }
+  }
+
+  public class StockDetails
+  {
+    public string Ticker { get; set; }
+    public string TradingStatus { get; set; }
+    public string Trades { get; set; }
+    public string Value { get; set; }
+    public string Volume { get; set; }
+    public string Capitalisation { get; set; }
+    public string Open { get; set; }
+    public string High { get; set; }
+    public string Low { get; set; }
+    public string HighBid { get; set; }
+    public string LowOffer { get; set; }
+    public string PE { get; set; }
+    public string EPS { get; set; }
+    public string NTA { get; set; }
+    public string GrossDivYield { get; set; }
+    public string SecuritiesIssued { get; set; }
   }
 
 

@@ -32,26 +32,24 @@ public class StockWindow : Window
     var selectedStock = Scraper.Scraper.Init()[args.Item];
     var stockDetails = Scraper.Scraper.GetStockDetails(selectedStock.Ticker);
 
-    // var tableHeader = "Stock Details";
-    // var tableSeparator = new string('=', tableHeader.Length);
+    var tableHeader = "Stock Details";
+    var tableSeparator = new string('=', tableHeader.Length);
 
-    // var tableContent = new StringBuilder();
-    // tableContent.AppendLine(tableHeader);
-    // tableContent.AppendLine(tableSeparator);
-    // tableContent.AppendLine($"{"Ticker:",-20} {selectedStock.Ticker}");
-    // tableContent.AppendLine($"{"Trading Status:",-20} {stockDetails["Trading Status"]}");
-    // tableContent.AppendLine($"{"Trades:",-20} {stockDetails["Trades"]}");
-    // tableContent.AppendLine($"{"Value:",-20} {stockDetails["Value"]}");
-    // tableContent.AppendLine($"{"Volume:",-20} {stockDetails["Volume"]}");
-    // tableContent.AppendLine($"{"Capitalisation:",-20} {stockDetails["Capitalisation"]}");
-    // tableContent.AppendLine($"{"Open:",-20} {stockDetails["Open"]}");
-    // tableContent.AppendLine($"{"High:",-20} {stockDetails["High"]}");
-    // tableContent.AppendLine($"{"Low:",-20} {stockDetails["Low"]}");
-    // tableContent.AppendLine($"{"High Bid:",-20} {stockDetails["High Bid"]}");
-    // tableContent.AppendLine($"{"Low Offer:",-20} {stockDetails["Low Offer"]}");
+    var tableContent = new StringBuilder();
+    tableContent.AppendLine(tableHeader);
+    tableContent.AppendLine(tableSeparator);
+    tableContent.AppendLine($"{"Ticker:",0} {stockDetails.Ticker}");
+    tableContent.AppendLine($"{"Trading Status:",0} {stockDetails.TradingStatus}");
+    tableContent.AppendLine($"{"Trades:",0} {stockDetails.Trades}");
+    tableContent.AppendLine($"{"Value:",0} {stockDetails.Value}");
+    tableContent.AppendLine($"{"Volume:",0} {stockDetails.Volume}");
+    tableContent.AppendLine($"{"Capitalisation:",0} {stockDetails.Capitalisation}");
+    tableContent.AppendLine($"{"Open:",0} {stockDetails.Open}");
+    tableContent.AppendLine($"{"High:",0} {stockDetails.High}");
+    tableContent.AppendLine($"{"Low:",0} {stockDetails.Low}");
+    tableContent.AppendLine($"{"High Bid:",0} {stockDetails.HighBid}");
+    tableContent.AppendLine($"{"Low Offer:",0} {stockDetails.LowOffer}");
 
-    // MessageBox.Query("Stock Details", tableContent.ToString(), "Ok");
-
-    MessageBox.Query("Stock Details", stockDetails, "Ok");
+    MessageBox.Query("Stock Details", tableContent.ToString(), "Ok");
   }
 }
