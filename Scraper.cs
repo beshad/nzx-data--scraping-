@@ -26,12 +26,16 @@ namespace Scraper
         var ticker = cells[0].SelectSingleNode("a/strong").InnerText;
         var name = cells[1].SelectSingleNode("a").InnerText;
         var price = cells[2].InnerText.Trim();
+        var changeValue = cells[3].SelectSingleNode(".//span[contains(@class, 'PriceChangeAmount')]")?.InnerText.Trim() ?? "Not found";
+        var volume = cells[4].InnerText.Trim();
 
         data.Add(new StockData
         {
           Ticker = ticker,
           Name = name,
-          Price = price
+          Price = price,
+          ChangeValue = changeValue,
+          Volume = volume
         });
 
       }
