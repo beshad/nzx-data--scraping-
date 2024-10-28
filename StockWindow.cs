@@ -20,7 +20,7 @@ public class StockWindow : Window
       Height = Dim.Fill()
     };
 
-    listView.SetSource(data.Select(item => $"{item.Ticker} - {item.Name} - {item.Price}").ToList());
+    listView.SetSource(data.Select(item => $"{item.Ticker}|{item.Name} [{item.Price}]").ToList());
 
     listView.OpenSelectedItem += OnStockSelected;
 
