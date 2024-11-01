@@ -101,36 +101,7 @@ namespace Sandbox
         MessageBox.Query("Message Box", "This is a message box", "OK");
       };
 
-      var tableView = new TableView
-      {
-        X = 1,
-        Y = 1,
-        Width = Dim.Fill(),
-        Height = Dim.Fill(),
 
-      };
-
-      var data = new string[,]
-    {
-            { "Alice", "30", "New York" },
-            { "Bob", "25", "Los Angeles" },
-            { "Charlie", "35", "Chicago" }
-    };
-
-      // add data to table
-      var rows = new TableRow[data.GetLength(0)];
-      for (int i = 0; i < data.GetLength(0); i++)
-      {
-        rows[i] = new TableRow();
-        for (int j = 0; j < data.GetLength(1); j++)
-        {
-          rows[i].AddCell(new TableCell(data[i, j]));
-        }
-      }
-
-
-      // // Add the TableView to the window
-      window1.Add(tableView);
       window2.Add(btn);
 
       // top.Add(window);
