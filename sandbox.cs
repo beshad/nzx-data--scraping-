@@ -42,10 +42,6 @@ namespace Sandbox
         {
           dt.Rows.Add(stock.Ticker, stock.Name, stock.Price);
         }
-        foreach (Stock stock in stocks)
-        {
-          dt.Rows.Add(stock.Ticker, stock.Name, stock.Price);
-        }
       }
 
       tableView.Table = dt;
