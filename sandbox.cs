@@ -5,6 +5,9 @@ using System.IO;
 using System.Text.Json;
 using System.Xml;
 using Terminal.Gui;
+using Terminal.Gui.Trees;
+using System.Data;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Sandbox
 {
@@ -102,7 +105,51 @@ namespace Sandbox
       };
 
 
-      window2.Add(btn);
+
+      var dt = new DataTable();
+      var lines = File.ReadAllLines("stock_data.csv");
+
+      foreach (var h in lines[0].Split(','))
+      {
+        dt.Columns.Add(h);
+      }
+
+      foreach (var line in lines.Skip(1))
+      {
+        dt.Rows.Add(line.Split(','));
+      }
+
+      var tableView = new TableView()
+      {
+        X = 0,
+        Y = 0,
+        Width = Dim.Fill(),
+        Height = Dim.Fill(),
+      };
+
+      tableView.Table = dt; 
+      window1.Add(tableView);
+
+      var tree = new TreeView()
+      {
+        X = 0,
+        Y = 0,
+        Width = 40,
+        Height = 20
+      };
+
+      var root1 = new TreeNode("Root1");
+      root1.Children.Add(new TreeNode("Child1.1"));
+      root1.Children.Add(new TreeNode("Child1.2"));
+
+      var root2 = new TreeNode("Root2");
+      root2.Children.Add(new TreeNode("Child2.1"));
+      root2.Children.Add(new TreeNode("Child2.2"));
+
+      tree.AddObject(root1);
+      tree.AddObject(root2);
+
+      window2.Add(tree);
 
       // top.Add(window);
       top.Add(window1);
