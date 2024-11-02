@@ -7,7 +7,7 @@ using System.Xml;
 using Terminal.Gui;
 using Terminal.Gui.Trees;
 using System.Data;
-using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections;
 
 namespace Sandbox
 {
@@ -127,8 +127,41 @@ namespace Sandbox
         Height = Dim.Fill(),
       };
 
-      tableView.Table = dt; 
+      tableView.Table = dt;
       window1.Add(tableView);
+
+
+      var window3 = new Window("NZX Stock Sandbox 1")
+      {
+        X = 0,
+        Y = 0,
+        Width = Dim.Fill(),
+        Height = Dim.Fill(),
+      };
+
+      string jsonData = File.ReadAllText("stock_data.json");
+      List<Stock>? stocks = JsonSerializer.Deserialize<List<Stock>>(jsonData);
+
+      var dta = new DataTable();
+      dta.Columns.Add("Ticker", typeof(string));
+      dta.Columns.Add("Name", typeof(string));
+      dta.Columns.Add("Price", typeof(string));
+
+      if (stocks != null)
+      {
+        foreach (Stock stock in stocks)
+        {
+          dta.Rows.Add(stock.Ticker, stock.Name, stock.Price);
+        }
+        foreach (Stock stock in stocks)
+        {
+          dta.Rows.Add(stock.Ticker, stock.Name, stock.Price);
+        }
+      }
+
+      tableView.Table = dta;
+      window3.Add(tableView);
+      top.Add(window3);
 
       var tree = new TreeView()
       {
@@ -152,11 +185,21 @@ namespace Sandbox
       window2.Add(tree);
 
       // top.Add(window);
-      top.Add(window1);
-      top.Add(window2);
+      // top.Add(window1);
+      // top.Add(window2);
+
       Application.Run();
       Application.Shutdown();
     }
   }
+
+
+}
+
+public class Stock
+{
+  public string? Ticker { get; set; }
+  public required string Name { get; set; }
+  public required string Price { get; set; }
 }
 
