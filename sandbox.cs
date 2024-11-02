@@ -26,11 +26,10 @@ namespace Sandbox
       var tableView = new TableView()
       {
         X = 0,
-        Y = 3,
+        Y = 2,
         Width = Dim.Fill(),
         Height = Dim.Fill(),
       };
-
 
       var dt = new DataTable();
       dt.Columns.Add("Ticker", typeof(string));
@@ -78,24 +77,21 @@ namespace Sandbox
         Height = 1
       };
 
+      search.TextChanged += (_) =>
+      {
 
-      search.TextChanged += (s) =>
-            {
-              var searchText = search.Text.ToLower();
-              var filteredRows = dt.Select($"Ticker LIKE '%{searchText}%' OR Name LIKE '%{searchText}%'");
+        var searchText = search.Text.ToLower();
+        var filteredRows = dt.Select($"Ticker LIKE '%{searchText}%' OR Name LIKE '%{searchText}%'");
 
-              var filteredTable = dt.Clone();
-              foreach (var row in filteredRows)
-              {
-                filteredTable.ImportRow(row);
-              }
+        var filteredTable = dt.Clone();
+        foreach (var row in filteredRows)
+        {
+          filteredTable.ImportRow(row);
+        }
+        tableView.Table = filteredTable;
+      };
 
-              tableView.Table = filteredTable;
-            };
-
-      window.Add(tableView);
-      window.Add(search);
-      window.Add(label);
+      window.Add(tableView, label, search);
       top.Add(window);
 
       Application.Run();
