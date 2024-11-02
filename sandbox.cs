@@ -13,7 +13,97 @@ namespace Sandbox
 {
   public class Sandbox
   {
-    public static void Start()
+
+    public static void FilterTickersByName()
+    {
+      Application.Init();
+      var top = Application.Top;
+
+
+      string jsonData = File.ReadAllText("stock_data.json");
+      List<Stock>? stocks = JsonSerializer.Deserialize<List<Stock>>(jsonData);
+
+      var tableView = new TableView()
+      {
+        X = 0,
+        Y = 3,
+        Width = Dim.Fill(),
+        Height = Dim.Fill(),
+      };
+
+
+      var dt = new DataTable();
+      dt.Columns.Add("Ticker", typeof(string));
+      dt.Columns.Add("Name", typeof(string));
+      dt.Columns.Add("Price", typeof(string));
+
+      if (stocks != null)
+      {
+        foreach (Stock stock in stocks)
+        {
+          dt.Rows.Add(stock.Ticker, stock.Name, stock.Price);
+        }
+        foreach (Stock stock in stocks)
+        {
+          dt.Rows.Add(stock.Ticker, stock.Name, stock.Price);
+        }
+      }
+
+      tableView.Table = dt;
+
+
+      var window = new Window("Sandbox")
+      {
+        X = 0,
+        Y = 0,
+        Width = Dim.Fill(),
+        Height = Dim.Fill(),
+      };
+
+      var label = new Label()
+      {
+        X = Pos.Left(window) + 1,
+        Y = 0,
+        Width = 10,
+        Height = 1,
+        Text = "Search ticker:",
+      };
+
+
+      var search = new TextField()
+      {
+        X = Pos.Right(label) + 1,
+        Y = 0,
+        Width = 20,
+        Height = 1
+      };
+
+
+      search.TextChanged += (s) =>
+            {
+              var searchText = search.Text.ToLower();
+              var filteredRows = dt.Select($"Ticker LIKE '%{searchText}%' OR Name LIKE '%{searchText}%'");
+
+              var filteredTable = dt.Clone();
+              foreach (var row in filteredRows)
+              {
+                filteredTable.ImportRow(row);
+              }
+
+              tableView.Table = filteredTable;
+            };
+
+      window.Add(tableView);
+      window.Add(search);
+      window.Add(label);
+      top.Add(window);
+
+      Application.Run();
+      Application.Shutdown();
+    }
+
+
+    public static void Two()
     {
       Application.Init();
       var top = Application.Top;
@@ -130,7 +220,6 @@ namespace Sandbox
       tableView.Table = dt;
       window1.Add(tableView);
 
-
       var window3 = new Window("NZX Stock Sandbox 1")
       {
         X = 0,
@@ -161,7 +250,7 @@ namespace Sandbox
 
       tableView.Table = dta;
       window3.Add(tableView);
-      top.Add(window3);
+      // top.Add(window3);
 
       var tree = new TreeView()
       {
@@ -188,13 +277,50 @@ namespace Sandbox
       // top.Add(window1);
       // top.Add(window2);
 
+
+      var window4 = new Window("NZX Stock Sandbox 1")
+      {
+        X = 0,
+        Y = 0,
+        Width = Dim.Fill(),
+        Height = Dim.Fill(),
+      };
+
+      var label = new Label()
+      {
+        X = Pos.Center(),
+        Y = 0,
+        Width = 10,
+        Height = 1,
+        Text = "Password:"
+      };
+
+
+      var username = new TextField()
+      {
+        X = Pos.Right(label) + 1,
+        Y = 0,
+        Width = 20,
+        Height = 1
+      };
+
+
+      username.TextChanged += (s) =>
+      {
+        label.Text = $"Password: {username.Text}";
+      };
+
+      window4.Add(username);
+      window4.Add(label);
+      top.Add(window4);
+
       Application.Run();
       Application.Shutdown();
     }
   }
-
-
 }
+
+
 
 public class Stock
 {

@@ -12,7 +12,7 @@ public partial class Program
 {
   public static void Main()
   {
-    Sandbox.Sandbox.Start();
+    Sandbox.Sandbox.FilterTickersByName();
   }
 
 
