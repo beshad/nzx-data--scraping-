@@ -7,22 +7,18 @@ using System.Xml;
 using Terminal.Gui;
 using Scraper;
 using Sandbox;
+using Database;
 
 public partial class Program
 {
   public static void Main()
   {
-    Sandbox.Sandbox.FilterTickersByName();
+    // Sandbox.Sandbox.FilterTickersByName();
+    Database.Connect.Run();
+
   }
 
 
-  private static void Run()
-  {
-    Application.Init();
-    var window = new StockWindow();
-    Application.Run(window);
-    Application.Shutdown();
-  }
 
 
 }
